@@ -28,7 +28,7 @@ const Questions = [{
 },
 {
 	q: "Why did the math book look sad?",
-	a: [{ text: "Because it had too many problems", isCorrect: false, isSelected: true },
+	a: [{ text: "Because it had too many problems", isCorrect: true },
 	{ text: "Because it couldn't find its x", isCorrect: false },
 	{ text: "Because it lost its numbers", isCorrect: false },
 	{ text: "Because it was too thick", isCorrect: false }
