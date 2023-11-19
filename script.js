@@ -1,31 +1,50 @@
 // Questions that will be asked
 const Questions = [{
-	q: "What is capital of India?",
-	a: [{ text: "Gandhinagar", isCorrect: false },
-	{ text: "Surat", isCorrect: false },
-	{ text: "Delhi", isCorrect: true },
-	{ text: "Mumbai", isCorrect: false }
+	q: "The answer is really big.",
+	a: [{ text: "THE ANSWER", isCorrect: true },
+	{ text: "really big", isCorrect: false },
+	{ text: "An elephant", isCorrect: false },
+	{ text: "Bhupendra Jogi", isCorrect: false }
 	]
 
 },
 {
-	q: "What is the capital of Thailand?",
-	a: [{ text: "Lampang", isCorrect: false, isSelected: false },
-	{ text: "Phuket", isCorrect: false },
-	{ text: "Ayutthaya", isCorrect: false },
-	{ text: "Bangkok", isCorrect: true }
+	q: "A farmer has 17 goats. All of them but 8 die. How many goats are alive?",
+	a: [{ text: "9", isCorrect: false, isSelected: false },
+	{ text: "17", isCorrect: false },
+	{ text: "25", isCorrect: false },
+	{ text: "8", isCorrect: true }
 	]
 
 },
 {
-	q: "What is the capital of Gujarat",
-	a: [{ text: "Surat", isCorrect: false },
-	{ text: "Vadodara", isCorrect: false },
-	{ text: "Gandhinagar", isCorrect: true },
-	{ text: "Rajkot", isCorrect: false }
+	q: " How do you organize a space party?",
+	a: [{ text: "Hire a professional party planner", isCorrect: false },
+	{ text: "Call NASA for advice", isCorrect: false },
+	{ text: "You planet", isCorrect: true },
+	{ text: "Hire an alien DJ", isCorrect: false }
 	]
 
-}
+},
+{
+	q: "Why did the math book look sad?",
+	a: [{ text: "Because it had too many problems", isCorrect: false, isSelected: false },
+	{ text: "Because it couldn't find its x", isCorrect: false },
+	{ text: "Because it lost its numbers", isCorrect: false },
+	{ text: "Because it was too thick", isCorrect: true }
+	]
+
+},
+{
+	q: "Why don't skeletons fight each other?",
+	a: [{ text: "They're dead tired", isCorrect: false, isSelected: false },
+	{ text: "They're all bone and no muscle", isCorrect: false },
+	{ text: "They're afraid of their own kind", isCorrect: false },
+	{ text: "They don't have the guts", isCorrect: true }
+	]
+
+},
+
 
 ]
 
